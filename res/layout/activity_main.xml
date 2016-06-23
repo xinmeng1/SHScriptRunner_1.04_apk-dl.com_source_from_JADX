@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_base" android:layout_width="-1" android:layout_height="-1">
+    <com.google.android.gms.ads.AdView ads:id="@id/adView" ads:layout_width="-1" ads:layout_height="-2" ads:layout_alignParentBottom="true" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-5569584593857023/5830903394" />
+    <EditText ads:textColor="#000000" ads:gravity="33" ads:id="@id/main_script" ads:background="#ffffff" ads:padding="5dp" ads:layout_width="-1" ads:layout_height="-1" ads:hint="@string/main_hint" ads:layout_above="@id/adView" ads:inputType="a0001" />
+    <LinearLayout ads:gravity="11" ads:orientation="1" ads:id="@id/main_result_container" ads:background="#88000000" ads:visibility="2" ads:layout_width="-1" ads:layout_height="-1"
+        <LinearLayout ads:gravity="11" ads:orientation="1" ads:background="@drawable/dialog_background" ads:padding="10dp" ads:layout_width="-1" ads:layout_height="-1" ads:layout_margin="30dp">
+            <TextView ads:textAppearance="?unknown_attr_ref: 1010041" ads:textStyle="1" ads:textColor="#000000" ads:gravity="11" ads:layout_width="-1" ads:layout_height="-2" ads:text="@string/main_result" />
+            <ScrollView ads:layout_width="-1" ads:layout_height="0dp" ads:cacheColorHint="#00000000" ads:layout_weight="1.0">
+                <LinearLayout ads:gravity="11" ads:orientation="1" ads:layout_width="-1" ads:layout_height="-2">
+                    <TextView ads:textColor="#000000" ads:gravity="33" ads:id="@id/main_result_ok" ads:layout_width="-1" ads:layout_height="-2" ads:singleLine="false" />
+                    <TextView ads:textColor="#ff0000" ads:gravity="33" ads:id="@id/main_result_error" ads:layout_width="-1" ads:layout_height="-2" ads:singleLine="false" />
+                </LinearLayout>
+            </ScrollView>
+            <TextView ads:textStyle="1" ads:textColor="#000000" ads:gravity="11" ads:id="@id/main_result_close" ads:background="@drawable/round_gray" ads:padding="5dp" ads:layout_width="-1" ads:layout_height="-2" ads:minHeight="40dp" ads:text="@string/main_close" ads:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout ads:gravity="11" ads:orientation="1" ads:id="@id/main_progress_container" ads:background="#88000000" ads:visibility="2" ads:layout_width="-1" ads:layout_height="-1">
+        <ImageView ads:id="@id/main_progress" ads:layout_width="-2" ads:layout_height="-2" ads:src="@drawable/progress" ads:contentDescription="@string/image" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:id="@id/file_base" android:background="#ffffff" android:padding="20dp" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:gravity="11" android:orientation="0" android:background="@drawable/round_gray" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:layout_gravity="11" android:id="@id/file_folder_up" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/icon_folder_up" android:minWidth="40dp" android:minHeight="40dp" android:contentDescription="@string/image" />
+        <TextView android:textColor="#000000" android:gravity="13" android:layout_gravity="11" android:id="@id/file_current_folder" android:padding="3dp" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="3dp" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="11" android:orientation="0" android:id="@id/file_filter_container" android:background="@drawable/round_white" android:padding="1dp" android:layout_width="-1" android:layout_height="-2">
+        <EditText android:gravity="13" android:layout_gravity="11" android:id="@id/file_filter" android:background="#ffffff" android:padding="3dp" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="3dp" android:hint="@string/file_filter_hint" android:lines="1" android:ems="10" android:singleLine="true" android:layout_weight="1.0" android:inputType="1" />
+        <ImageView android:layout_gravity="11" android:id="@id/file_filter_clear" android:layout_width="30dp" android:layout_height="30dp" android:src="@drawable/close" android:contentDescription="@string/image" />
+    </LinearLayout>
+    <LinearLayout android:gravity="11" android:orientation="0" android:id="@id/file_name_container" android:background="@drawable/round_white" android:padding="1dp" android:layout_width="-1" android:layout_height="-2">
+        <EditText android:gravity="13" android:layout_gravity="11" android:id="@id/file_name" android:background="@drawable/round_white" android:padding="3dp" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="5dp" android:hint="@string/file_name_hint" android:lines="1" android:ems="10" android:singleLine="true" android:layout_weight="1.0" android:inputType="1" />
+        <Button android:layout_gravity="11" android:id="@id/file_save" android:layout_width="-2" android:layout_height="-2" android:minHeight="40dp" android:text="@string/file_save" />
+    </LinearLayout>
+    <ScrollView android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="1" android:id="@id/file_list" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" />
+    </ScrollView> />

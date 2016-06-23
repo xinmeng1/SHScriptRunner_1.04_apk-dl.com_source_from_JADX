@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="home" />
+    <item type="id" name="action_bar_activity_content" />
+    <item type="id" name="action_menu_divider" />
+    <item type="id" name="action_menu_presenter" />
+    <item type="id" name="progress_circular" />
+    <item type="id" name="progress_horizontal" />
+    <item type="id" name="action_bar_root">false</item>
+    <item type="id" name="action_bar_container">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="action_context_bar">false</item>
+    <item type="id" name="split_action_bar">false</item>
+    <item type="id" name="action_bar_overlay_layout">false</item>
+    <item type="id" name="top_action_bar">false</item>
+    <item type="id" name="up">false</item>
+    <item type="id" name="action_bar_title">false</item>
+    <item type="id" name="action_bar_subtitle">false</item>
+    <item type="id" name="action_mode_close_button">false</item>
+    <item type="id" name="activity_chooser_view_content">false</item>
+    <item type="id" name="expand_activities_button">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="default_activity_button">false</item>
+    <item type="id" name="list_item">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="expanded_menu">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="shortcut">false</item>
+    <item type="id" name="radio">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="search_bar">false</item>
+    <item type="id" name="search_badge">false</item>
+    <item type="id" name="search_button">false</item>
+    <item type="id" name="search_edit_frame">false</item>
+    <item type="id" name="search_mag_icon">false</item>
+    <item type="id" name="search_plate">false</item>
+    <item type="id" name="search_src_text">false</item>
+    <item type="id" name="search_close_btn">false</item>
+    <item type="id" name="submit_area">false</item>
+    <item type="id" name="search_go_btn">false</item>
+    <item type="id" name="search_voice_btn">false</item>
+    <item type="id" name="file_base">false</item>
+    <item type="id" name="file_folder_up">false</item>
+    <item type="id" name="file_current_folder">false</item>
+    <item type="id" name="file_filter_container">false</item>
+    <item type="id" name="file_filter">false</item>
+    <item type="id" name="file_filter_clear">false</item>
+    <item type="id" name="file_name_container">false</item>
+    <item type="id" name="file_name">false</item>
+    <item type="id" name="file_save">false</item>
+    <item type="id" name="file_list">false</item>
+    <item type="id" name="main_base">false</item>
+    <item type="id" name="adView">false</item>
+    <item type="id" name="main_script">false</item>
+    <item type="id" name="main_result_container">false</item>
+    <item type="id" name="main_result_ok">false</item>
+    <item type="id" name="main_result_error">false</item>
+    <item type="id" name="main_result_close">false</item>
+    <item type="id" name="main_progress_container">false</item>
+    <item type="id" name="main_progress">false</item>
+    <item type="id" name="dialog_consumer">false</item>
+    <item type="id" name="about_version">false</item>
+    <item type="id" name="about_by">false</item>
+    <item type="id" name="about_gear">false</item>
+    <item type="id" name="about_info">false</item>
+    <item type="id" name="about_close">false</item>
+    <item type="id" name="action_run">false</item>
+    <item type="id" name="action_su">false</item>
+    <item type="id" name="action_load">false</item>
+    <item type="id" name="action_save">false</item>
+    <item type="id" name="action_about">false</item>
+</resources>

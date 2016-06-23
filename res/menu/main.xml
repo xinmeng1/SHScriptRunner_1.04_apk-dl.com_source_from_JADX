@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:icon="@drawable/action_run" app:id="@id/action_run" app:title="@string/action_run" app:showAsAction="6" />
+    <item app:icon="@drawable/action_su" app:id="@id/action_su" app:title="@string/action_su" app:showAsAction="5" />
+    <item app:icon="@drawable/action_load" app:id="@id/action_load" app:title="@string/action_load" app:showAsAction="5" />
+    <item app:icon="@drawable/action_save" app:id="@id/action_save" app:title="@string/action_save" app:showAsAction="5" />
+    <item app:icon="@drawable/action_about" app:id="@id/action_about" app:title="@string/action_about" app:showAsAction="5" />
+</menu>
